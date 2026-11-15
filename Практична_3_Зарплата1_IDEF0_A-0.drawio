@@ -1,0 +1,77 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT">
+  <diagram id="context-a0" name="Контекстна діаграма A-0">
+    <mxGraphModel dx="1202" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="750" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;fontStyle=1;fontColor=#17283F;" value="КОНТЕКСТНА ДІАГРАМА IDEF0 (A-0)" vertex="1">
+          <mxGeometry height="42" width="650" x="280" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=15;fontColor=#617086;" value="Практична робота №3 · Варіант 1 «Зарплата 1»" vertex="1">
+          <mxGeometry height="28" width="570" x="320" y="99" as="geometry" />
+        </mxCell>
+        <mxCell id="box" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EAF2FC;strokeColor=#234E7A;strokeWidth=3;fontSize=22;fontStyle=1;fontColor=#153453;align=center;verticalAlign=middle;spacing=12;" value="Розрахунок заробітної&lt;br&gt;плати співробітників" vertex="1">
+          <mxGeometry height="170" width="385" x="405" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="func" parent="1" style="text;html=1;align=right;fontSize=16;fontStyle=1;fontColor=#234E7A;" value="A-0" vertex="1">
+          <mxGeometry height="27" width="56" x="726" y="427" as="geometry" />
+        </mxCell>
+        <mxCell id="input" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=19;fontColor=#25354A;" value="Дані про&lt;br&gt;співробітників" vertex="1">
+          <mxGeometry height="60" width="245" x="95" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="control" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=18;fontColor=#25354A;" value="Тарифна сітка та правила&lt;br&gt;нарахування зарплати" vertex="1">
+          <mxGeometry height="64" width="314" x="442" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="output" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=18;fontColor=#25354A;" value="Розрахована заробітна&lt;br&gt;плата за місяцями" vertex="1">
+          <mxGeometry height="68" width="300" x="855" y="331" as="geometry" />
+        </mxCell>
+        <mxCell id="mechanism" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=18;fontColor=#25354A;" value="Бухгалтерська інформаційна&lt;br&gt;система" vertex="1">
+          <mxGeometry height="65" width="330" x="440" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" style="endArrow=block;endFill=1;endSize=11;html=1;rounded=0;strokeColor=#25354A;strokeWidth=2.5;edgeStyle=orthogonalEdgeStyle;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="380" />
+              <mxPoint x="405" y="380" />
+            </Array>
+            <mxPoint x="340" y="380" as="sourcePoint" />
+            <mxPoint x="405" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" style="endArrow=block;endFill=1;endSize=11;html=1;rounded=0;strokeColor=#25354A;strokeWidth=2.5;edgeStyle=orthogonalEdgeStyle;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="234" />
+              <mxPoint x="600" y="295" />
+            </Array>
+            <mxPoint x="600" y="234" as="sourcePoint" />
+            <mxPoint x="600" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" style="endArrow=block;endFill=1;endSize=11;html=1;rounded=0;strokeColor=#25354A;strokeWidth=2.5;edgeStyle=orthogonalEdgeStyle;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="790" y="380" />
+              <mxPoint x="855" y="380" />
+            </Array>
+            <mxPoint x="790" y="380" as="sourcePoint" />
+            <mxPoint x="855" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" style="endArrow=block;endFill=1;endSize=11;html=1;rounded=0;strokeColor=#25354A;strokeWidth=2.5;edgeStyle=orthogonalEdgeStyle;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="545" />
+              <mxPoint x="600" y="465" />
+            </Array>
+            <mxPoint x="600" y="545" as="sourcePoint" />
+            <mxPoint x="600" y="465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="footer" parent="1" style="text;html=1;align=center;fontSize=13;fontColor=#66768B;" value="Вхід — ліворуч  •  Керування — зверху  •  Вихід — праворуч  •  Механізм — знизу" vertex="1">
+          <mxGeometry height="30" width="800" x="208" y="661" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
